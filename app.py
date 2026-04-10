@@ -163,7 +163,7 @@ st.divider()
 st.subheader("數據源與技術說明")
 st.caption(f"""
 - 資料庫系統：Supabase Cloud SQL
-- 報價 API：CoinGecko (備援：CryptoCompare API Key: {env['COMPARE_API_KEY'][:5]}***)
+- 報價 API：CoinGecko CryptoCompare 與其他網頁爬蟲如bitbo,treasuries
 - 匯率轉換：即時 JPY/USD, HKD/USD 換算
 - 財報基量：2026/04 季度持幣常數配置
 - 免責聲明：本系統數據僅供學術展示與技術研究使用，不代表任何形式之投資建議。
